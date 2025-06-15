@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دارة الرياش للاستشارات المالية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Droid+Arabic+Naskh&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; font-family: 'Droid Arabic Naskh', sans-serif; background-color: #f9f9f9; color: #222; }
+    header { background-color: #003366; color: white; padding: 10px 20px; display: flex; align-items: center; justify-content: space-between; }
+    header img { height: 60px; }
+    header .title { text-align: right; }
+    nav { display: flex; justify-content: center; gap: 20px; background-color: #005599; padding: 10px 0; }
+    nav a { color: white; text-decoration: none; font-weight: bold; }
+    .hero { padding: 80px 20px; text-align: center; background: #333 url('assets/kafd.jpg') no-repeat center center; background-size: cover; color: white; position: relative; }
+    .hero::before { content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.6); }
+    .hero-content { position: relative; z-index: 2; }
+    .hero h1 { font-size: 36px; margin-bottom: 20px; }
+    .hero p { font-size: 18px; max-width: 600px; margin: 0 auto; }
+    footer { background-color: #003366; color: white; text-align: center; padding: 15px; font-size: 14px; }
+    @media (max-width: 600px) {
+      nav { flex-direction: column; gap: 10px; }
+      header { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="assets/logo.jpg" alt="شعار دارة الرياش">
+    <div class="title">
+      <h1>دارة الرياش للاستشارات المالية</h1>
+      <p>ثقة، خبرة، حلول استراتيجية</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="index.html">الرئيسية</a>
+    <a href="about.html">من نحن</a>
+    <a href="services.html">خدماتنا</a>
+    <a href="consultation.html">طلب استشارة</a>
+    <a href="contact.html">تواصل معنا</a>
+    <a href="faq.html">الأسئلة الشائعة</a>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>نقود أعمالك نحو قرارات مالية أفضل</h1>
+      <p>نحن في دارة الرياش نقدم استشارات مالية مخصصة تدعم نمو أعمالك وتعزز كفاءتها ضمن إطار مهني عالي الجودة.</p>
+    </div>
+  </section>
+
+  <footer>&copy; 2025 دارة الرياش للاستشارات المالية | drfconsulting.com.sa</footer>
+</body>
+</html>
